@@ -1,0 +1,378 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+
+nav{
+    background-color:#FDCA40;
+    height: 200px;  
+
+}
+.contenedor{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position:static;
+    position: relative;
+
+}
+
+    
+.menu a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+    text-align: center;
+    
+}
+.menu a:hover{
+   background-color: white;
+  
+}
+
+
+.log{
+    width: 300px;
+    height: 200px;
+    padding: 0px;
+    margin-left: 20px;
+   
+    
+}
+
+.title{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+
+}
+
+.texto{
+
+    color:#FDCA40;
+    font-size: x-large;
+    text-align: center;
+    
+}
+.eslogan{
+
+    color:white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    
+}
+.contenedor1{
+    
+    padding: 10px;
+    border: 10px; 
+    margin: 20px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-content: center;
+   
+}
+.juguete{
+    flex: 1;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border: 10px;
+    margin: 20px;
+   
+
+}
+
+.disfraz{
+    flex: 1;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border: 10px;
+    margin: 20px;
+
+}
+
+.videojuego{
+    flex: 1;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border: 10px;
+    margin: 20px;
+ 
+}
+.subtitulo{
+    color: #FDCA40;
+    font-size: 50px;
+    text-align: left;
+    font-family: cursive Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    padding: 50px 0px;
+    background-color:#FDCA40;
+    
+}
+.container_footer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position:static;
+    position: relative;
+}
+
+.log img{
+    width: 150px;
+}
+p{
+    text-align: left;
+    color:darkblue;
+    font-style: italic;
+    font-size: large;
+    justify-content: center;
+   
+}
+.contacto{
+
+    text-align: center;
+}
+.facebook{
+    width: 50px;
+    margin: 20px;
+}
+
+.instagram{
+    width: 50px;
+    margin: 20px;
+}
+
+
+
+@media screen and (max-width: 576px){
+    body{
+        background-color: gray;
+    }
+    nav{
+
+        height: 50px;  
+    }
+    .menu a{
+       margin-right: 10px;
+       font-size: small;
+       
+    }
+    .log{
+        width: 50px;
+        height: 40px;
+        padding: 0px;
+        margin-left: 10px;
+
+    }
+    
+   .texto{
+    font-size: x-small;
+    } 
+
+    .title{
+    font-size: 20px;
+    }
+    
+    .eslogan{
+        font-size: x-small;
+        
+    }
+    .juguete{
+        flex: 1;
+        width: 100px;
+        height: 120px;
+        padding: 10px;
+        border: 10px;
+        margin: 5px;
+       
+    
+    }
+    
+    .disfraz{
+        flex: 1;
+        width: 100px;
+        height: 120px;
+        padding: 10px;
+        border: 10px;
+        margin: 5px;
+    
+    }
+    
+    .videojuego{
+        flex: 1;
+        width: 100px;
+        height: 120px;
+        padding: 10px;
+        border: 10px;
+        margin: 5px;
+     
+    }
+    .subtitulo{
+        font-size: 15px;
+
+    }
+    
+    footer{
+        width: 100%;
+    
+     
+   
+  
+    }
+  
+    
+
+    log img{
+        width: 20px;
+        height: 20px;
+    }
+   
+    p{
+        
+        font-size: xx-small;
+       
+    }
+
+    .contacto{
+        font-size: 10px;
+        margin-left: 100px;
+   
+    }
+    
+    .facebook{
+        width: 20px;
+        margin: 7px;
+        
+    }
+    
+    .instagram{
+        width: 20px;
+        margin: 7px;
+       
+    }
+     
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 800px){
+  
+    nav{
+
+        height: 100px;  
+    }
+    .menu a{
+       margin-right: 10px;
+       font-size: small;
+       
+    }
+    .log{
+        width: 100px;
+        height: 80px;
+        padding: 0px;
+        margin-left: 10px;
+
+    }
+    
+   .texto{
+    font-size: x-small;
+    } 
+
+    .title{
+    font-size: 20px;
+    }
+    
+    .eslogan{
+        font-size: x-small;
+        
+    }
+    .juguete{
+        flex: 1;
+        width: 100px;
+        height: 120px;
+        padding: 10px;
+        border: 10px;
+        margin: 5px;
+       
+    
+    }
+    
+    .disfraz{
+        flex: 1;
+        width: 100px;
+        height: 120px;
+        padding: 10px;
+        border: 10px;
+        margin: 5px;
+    
+    }
+    
+    .videojuego{
+        flex: 1;
+        width: 100px;
+        height: 120px;
+        padding: 10px;
+        border: 10px;
+        margin: 5px;
+     
+    }
+    .subtitulo{
+        font-size: 15px;
+
+    }
+    
+    footer{
+        width: 100%;
+        height: 50%px;
+  
+    }
+  
+    
+
+    log img{
+        width: 50px;
+        height: 50px;
+    }
+   
+    p{
+        
+        font-size: small;
+       
+    }
+
+    .contacto{
+        font-size: 15px;
+        margin-left: 80px;
+   
+    }
+    
+    .facebook{
+        width: 30px;
+        margin: 7px;
+        
+    }
+    
+    .instagram{
+        width: 30px;
+        margin: 7px;
+       
+    }
+     
+
+}
+

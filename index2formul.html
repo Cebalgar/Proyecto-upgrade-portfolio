@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="https://reqres.in/api/users" method="POST" autocomplete="off">
+        <fieldset>
+            <legend>
+                Datos Personales
+            </legend>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="lname">Apellido</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="city">¿dónde vives?</label>
+            <select name="city" id="city">
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Valencia">Valencia</option>
+            </select>
+            <br>
+s
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" size="30" required>
+
+            <label for="user">Usuario</label>
+            <input type="password" name="Contraseña" id="Contraseña" minlength="5" maxlength="15" pattern="[A-Za-z0-9]+" placeholder="Solo números y letras">
+            <br>
+
+            <label for="fnacimiento">Fecha de Nacimiento</label>
+            <input type="date" id="fnacimiento" name="fnacimiento" max="2021-12-31">
+
+            <label for="fcolor">Color Favorito</label>
+            <input type="color" id="fcolor" name="fcolor">
+            <br>
+
+            <label for="message">Mensaje</label>
+            <br>
+            <textarea name="message" id="message" type="text" cols="20" rows="5" placeholder="Escribe aquí un mensaje"></textarea>
+
+        </fieldset>
+        <legend>Preferencias</legend>
+
+        <label for="vip">¿quién te gusta más?</label>
+        <input type="checkbox" id="vip" name="vip" >
+        <br>
+
+        <label for="fv_character">Selecciona tu personaje favorito</label>
+        <br>
+
+        <fieldset>
+            <label for="html">
+                <input type="radio" id="darth" name="fav_character" value="Darth Vader">DARTH VADER
+            </label>
+            <br>
+            <label for="css">
+                <input type="radio" id="luke" name="fav_character" value="Luke Skywalker">LUKE SKYWALKER
+            </label>
+            <br>
+            <label for="javascript">
+                <input type="radio" id="boba" name="fav_character" value="Boba Fett">BOBA FETT
+            </label>
+
+        </fieldset>
+        <br>
+        <button type="submit">ENVIAR</button>
+
+    </form>
+</body>
+</html>
